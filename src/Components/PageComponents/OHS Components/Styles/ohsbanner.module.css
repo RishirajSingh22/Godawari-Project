@@ -1,0 +1,40 @@
+.ohsBanner {   
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),
+     url("https://i.ibb.co/wZgSyzy8/089cc11b9f007fcfda22ec88bac4c6e7ef46d6a0.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 600px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+
+  .heading {
+    font-size: 46px;
+    font-weight: 400;
+    text-align: center;
+    span{
+        font-weight: 600;
+    }
+   
+  }
+  
+  @media (max-width:990px) {
+    .heading{
+        font-size: 44px;
+    }
+}
+@media (max-width:576px) {
+    .heading{
+        font-size: 28px;
+        padding: 0px 15px;
+    }
+    .billetsBanner{
+        height: 400px;
+    }
+}
+

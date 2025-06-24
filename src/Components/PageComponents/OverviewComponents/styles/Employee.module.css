@@ -1,0 +1,186 @@
+.maincontainer {
+  background-color: #1e1e1e;
+  color: #fff;
+  font-family: 'Inter';
+}
+
+.employeecontainer {
+  padding: 50px 0px;
+}
+
+.sectiontitle {
+  font-size: 58px;
+  font-weight: 600;
+}
+
+.sectionsubtitle {
+  font-size: 21px;
+  max-width: 70%;
+  margin: 0 auto 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.employeecard {
+  position: relative;
+  border: none;
+  /* margin-bottom: 10px; */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cardimg {
+  width: 100%;
+  height: 478px;
+  object-fit: cover;
+}
+
+.cardoverlay {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  font-size: 28px;
+  padding: 0px 15px ;
+  font-family: 'Inter';
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardoverlay h5 {
+  width: 50%;
+
+  font-size: 28px;
+}
+
+.learnmore {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Inter';
+  text-decoration: none;
+  margin-top: 31px
+}
+
+/* For screens smaller than 1200px */
+@media (max-width: 1200px) {
+  .sectiontitle {
+    font-size: 50px;
+  }
+  .sectionsubtitle {
+    font-size: 20px;
+  }
+  .cardimg {
+    height: 400px;
+  }
+  .cardoverlay h5 {
+    font-size: 22px;
+    padding: 12px;
+   width: 40%;
+    }
+  .learnmore {
+    font-size: 22px;
+  }
+}
+
+/* For screens smaller than 992px */
+@media (max-width: 992px) {
+  .employeecontainer {
+    padding: 40px 15px;
+  }
+
+  .sectiontitle {
+    font-size: 38px;
+  }
+
+  .sectionsubtitle {
+    font-size: 18px;
+  }
+
+  .cardimg {
+    height: 300px;
+  }
+
+  .cardoverlay h5 {
+    font-size: 20px;
+    width: 100%;
+    padding: 0px;
+   
+  }
+
+  .cardoverlay h5 {
+    width: 50%;
+  }
+
+  .learnmore {
+    font-size: 20px;
+    margin-top: 21px;
+  }
+}
+
+/* For screens smaller than 767px */
+@media (max-width: 767px) {
+  .employeecontainer {
+    padding: 30px 10px;
+  }
+
+  .sectiontitle {
+    font-size: 28px;
+  }
+
+  .sectionsubtitle {
+    font-size: 16px;
+    max-width: 90%;
+  }
+
+  .cardimg {
+    height: 300px;
+  }
+
+ 
+
+  .cardoverlay h5 {
+    width: 70%;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .learnmore {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+  
+  }
+}
+
+/* For screens smaller than 576px */
+@media (max-width: 576px) {
+  .employeecontainer {
+    padding: 20px 5px;
+  }
+
+  .sectiontitle {
+    font-size: 22px;
+  }
+
+  .sectionsubtitle {
+    font-size: 14px;
+  }
+
+  .cardimg {
+    height: 250px;
+  }
+
+  .cardoverlay h5 {
+    font-size: 16px;
+    width: 50%;
+    margin-bottom: 5px;
+
+  }
+  .learnmore {
+    font-size: 14px;
+    margin-top: 17px;
+  }
+}

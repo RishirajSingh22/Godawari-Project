@@ -1,0 +1,12 @@
+.pageUndeConstruction {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+  }
+  .wiptext {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  

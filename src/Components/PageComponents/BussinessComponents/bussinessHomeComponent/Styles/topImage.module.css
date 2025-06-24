@@ -1,0 +1,54 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.mediaTellingSection {
+    background-image: url("https://i.ibb.co/jZwMJZnP/23a092c40a7501b37d5ca0d0f01f53dc.jpg");
+    background-position: center;
+    background-size: cover;
+    height:600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mediatellingHeading {
+    text-align: center;
+
+    h2 {
+        font-size: 46px;
+        font-weight: 700;
+        color: #fff;
+    }
+}
+
+@media (max-width:990px) {
+    .mediaTellingSection {
+        height: 600px;
+        background-size: 100% 100%;
+    }
+
+    .mediatellingHeading h2 {
+        font-size: 44px;
+    }
+}
+
+
+@media (max-width:767px) {
+    
+
+    .mediatellingHeading h2 {
+        font-size: 38px;
+    }
+}
+
+
+@media (max-width:576px) {
+    .mediatellingHeading h2 {
+        font-size: 28px;
+        padding: auto 10px;
+    }
+   .mediaTellingSection{
+    height: 400px !important;
+   }
+}

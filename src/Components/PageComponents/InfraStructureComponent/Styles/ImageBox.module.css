@@ -1,0 +1,14 @@
+.ImageBox {
+    width: 50%;/* Adjust as needed */
+}
+
+.ImageBox img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+@media (max-width:768px){
+    .ImageBox{
+        width: 100%;
+    }
+}

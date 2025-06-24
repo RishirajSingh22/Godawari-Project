@@ -1,0 +1,52 @@
+.peopleCareerSection1{
+    background-image: url("https://i.ibb.co/9k4vQKbN/image-3.png");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+.peopleCareerSection2{
+    background-color: #000;
+    color: #FFF;
+}
+.section2heading{
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-size: 46px;
+    font-weight: 600;  
+    position: absolute;
+     top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+}
+.joinusdiv{
+    font-size: 28px;
+    a{
+        color: #E2322C;
+    }
+}
+@media (max-width:990px) {
+    .section2heading{
+        font-size: 38px;    
+    
+    }
+    .joinusdiv{
+        font-size: 18px;
+    }
+}
+@media (max-width:576px) {
+    .peopleCareerSection1{
+    background-position: center;
+    background-size: 100% 100%;
+    height: 400px;
+    }
+    .section2heading{
+        font-size: 28px;     
+    }
+    
+}

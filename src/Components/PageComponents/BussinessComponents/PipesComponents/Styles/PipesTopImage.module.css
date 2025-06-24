@@ -1,0 +1,36 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.mediaTellingSection {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://i.postimg.cc/5yhT373x/52b1630a7af6ec67259b18ac1ae9e9d5.png")
+      center/cover no-repeat;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.pipesBannerHeading {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  z-index: 2;    
+}
+.pipesBannerHeading span{
+  font-weight: 700;
+}
+@media (max-width: 990px) {
+  .pipesBannerHeading {
+    font-size: 48px;
+  }
+}
+@media (max-width: 576px) {
+  .pipesBannerHeading {
+    font-size: 28px;
+  }
+  .mediaTellingSection {
+    height: 400px;
+  }
+}

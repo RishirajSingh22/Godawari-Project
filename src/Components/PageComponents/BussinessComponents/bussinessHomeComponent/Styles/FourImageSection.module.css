@@ -1,0 +1,111 @@
+.industryCard {
+  position: relative;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+.industriesContainer{
+  background-color: #000;
+}
+
+.overlayLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease-in-out;
+}
+
+.industryCard:hover .overlayLayer {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.contentContainer {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  padding: auto;
+  transition: all 0.3s ease-in-out;
+  padding-top: 80px;
+}
+
+
+.title {
+  padding: auto;
+  height: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: transform 0
+}
+
+.details {
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.industryCard:hover .details {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.industryCard:hover .title {
+  transform: translateY(-10px);
+  opacity: 0.8;
+}
+
+.description {
+  font-size: 14px;
+  margin: 10px 15px;
+}
+
+
+.buttonContainer {
+  margin-top: 10px;
+  background: #fff;
+  color: #000 !important;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.buttonContainer:hover {
+  background: rgba(226, 50, 44, 1);
+  color: #fff !important;
+}
+
+@media (max-width: 992px) {
+  .industryCard {
+    height: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .industryCard {
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .industryCard {
+    height: 250px;
+  }
+}

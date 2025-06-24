@@ -1,0 +1,38 @@
+
+
+.rerroalloysBanner {
+    background-image: url("https://i.postimg.cc/YSL9Xk25/5a3da7421db4111d2ac73c3d2dfd29c30914c01b.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 600px;
+    width: 100%;
+    font-family: "poppins";
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media (max-width:990px) {
+    .heading {
+        font-size: 38px;    }
+}
+@media (max-width:768px) {
+    .heading {
+        font-size: 32px;
+     
+    }
+    
+}
+@media (max-width:576px) {
+    .heading {
+        font-size: 28px;
+       
+    }
+}

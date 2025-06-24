@@ -1,0 +1,134 @@
+.pillarsection {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0.0, 8)), url("https://i.ibb.co/7tB2jVR7/d2b5d9df3b82dd4ccd1a78c223edb39293b1ae5f.jpg");
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    color: #fff;
+}
+
+.keyPillars {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.reduceSection,
+.reuseSection,
+.recoverSection,
+.recycleSection {
+    position: relative;
+
+    img {
+        height: 40px;
+        width: 40px;
+    }
+
+    h6 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+}
+.reuseSection{
+    h6{
+        color:rgba(166, 218, 55, 1);
+    }
+}
+/* .reduceSection{
+    h6{
+        color:rgba(247, 98, 0, 1);
+    }
+} */
+.recoverSection{
+    h6{
+        color:rgba(26, 195, 251, 1);
+    }
+}
+.recycleSection{
+    h6{
+      
+        color:rgba(79, 145, 252, 1);
+    }
+}
+.recover{
+    color:rgba(26, 195, 251, 1);
+}
+
+.bottomSectionh {
+    padding: 70px 0px 65px;
+}
+
+.reduceImage {
+    height: 100px !important;
+    background-color: rgba(75, 83, 58, 1);
+    border: 2px solid rgba(247, 148, 56, 1);
+    border-radius: 50%;
+    border-bottom-right-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reuseImage {
+    height: 100px !important;
+    background-color: rgba(75, 83, 58, 1);
+    border: 2px solid rgba(166, 218, 55, 1);
+    border-radius: 50%;
+    border-bottom-left-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.recoverImage {
+    height: 100px !important;
+    background-color: rgba(52, 78, 87, 1);
+    border: 2px solid rgba(26, 195, 251, 1);
+    border-radius: 50%;
+    border-top-right-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.recycleImage {
+    height: 100px !important;
+    background-color: rgba(62, 78, 105, 1);
+    border: 2px solid rgba(79, 145, 252, 1);
+    border-radius: 50%;
+    border-top-left-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.bottomSection {
+    padding-top: 5rem;
+}
+
+.centerCircle {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 2px solid rgba(183, 183, 183, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.circleImage {
+    height: 100px;
+    width: 100px;
+}

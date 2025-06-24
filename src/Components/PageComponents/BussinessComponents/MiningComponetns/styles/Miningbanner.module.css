@@ -1,0 +1,39 @@
+.miningBanner {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://i.ibb.co/23kChjc5/0a8baf9af98e6cc45d469030573334bb.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 600px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+
+  .miningBannerHeading {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    z-index: 2;    
+  }
+  .miningBannerHeading span{
+    font-weight: 700;
+  }
+  @media (max-width: 990px) {
+    .miningBannerHeading {
+      font-size: 48px;
+    }
+  }
+  @media (max-width: 576px) {
+    .miningBannerHeading {
+      font-size: 28px;
+    }
+    .miningBanner {
+      height: 400px;
+    }
+  }

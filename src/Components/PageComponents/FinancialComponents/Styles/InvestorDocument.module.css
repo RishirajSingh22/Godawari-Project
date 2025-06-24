@@ -1,0 +1,75 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.investorDocumenth4{
+    font-size: 48px;
+    font-weight: 600;
+}
+.Images{
+    width: 100% ;
+    height: 200px;
+}
+
+.reportSection{
+    background-color: rgba(68, 68, 68, 1);
+    padding:10px 20px;
+}
+.reportSection p{
+    font-size: 28px;
+    font-weight: 600;
+}
+.arrowIcon{
+    background-color: transparent;
+    border: none;
+    color: rgba(226, 50, 44, 1);
+    margin-bottom:15px;
+    font-size: 20px;
+}
+
+@media (max-width:1200px) {
+    .reportSection p{
+        font-size: 24px;
+ 
+    }
+}
+@media (max-width:990px) {
+    .investorDocumenth4{
+        font-size: 38px;
+    }
+    .reportSection p{
+        font-size: 20px;
+  
+    }
+    .reportSection{
+        background-color: rgba(68, 68, 68, 1);
+        padding:10px;
+    }
+   
+}
+@media (max-width:8210px){
+    .reportSection p{
+        font-size: 18px;
+  
+    }
+}
+
+@media (max-width:767px) {
+    .reportSection p{
+        font-size: 26px;
+    
+    }
+    .reportSection{
+
+        padding:10px 20px;
+    }
+}
+@media (max-width:576px) {
+    .investorDocumenth4{
+        font-size: 26px;
+    }
+
+    .reportSection p{
+        font-size: 20px;
+     
+    }
+}

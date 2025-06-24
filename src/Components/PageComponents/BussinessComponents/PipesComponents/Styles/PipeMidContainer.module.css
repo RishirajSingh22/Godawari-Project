@@ -1,0 +1,360 @@
+.midContainer {
+  padding: 40px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://i.ibb.co/r2fdcVW1/8777f552adba489af89653609f0fbf5a4840cea4.jpg") center/cover no-repeat;
+  color: white;
+  text-align: center;
+}
+
+.heading {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+
+.tabImage {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.productImage {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tabImage:hover .productImage {
+    transform: scale(1.1);
+}
+
+.tabImageOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+    transition: opacity 0.3s;
+}
+
+.tabImage:hover .tabImageOverlay {
+    opacity: 0.9;
+}
+
+
+.selected .tabImageOverlay {
+    background:rgba(226, 50, 44, 0.7); 
+}
+
+.selected .tabImageTitle{
+    border-left: 3px solid rgb(255, 255, 255);
+}
+.tabImageTitle {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;   
+    border-left: 3px solid rgba(229, 54, 48, 1);
+    padding-left: 8px;
+    z-index: 2;
+}
+
+.tab {
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.activeTab {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.productSection {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1100px;
+  margin: auto;
+  align-items: start !important;
+  text-align: left;
+}
+
+.productImage {
+  width: 100%;
+  height: 400px;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.productInfo {
+  margin-top: 15px;
+  flex: 1;
+}
+
+.productDescription {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.productTitle {
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.specificationsTitle {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.productDesc {
+  margin: 20px 0;
+  font-size: 1.3rem;
+}
+
+.specifications {
+  /* list-style: none; */
+  padding: 0;
+  margin-left: 25px;
+}
+
+.specifications li {
+  font-size: 18px;
+  /* list-style: none; */
+
+  text-align: start;
+}
+
+
+.certificationsHeading {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-size: 44px;
+  font-weight:600 ;
+}
+
+.certParent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.certifications {
+
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.certBox {
+  border: 1px solid rgb(156, 154, 154);
+  background: rgba(48, 47, 47, 1);
+  padding: 20px;
+  max-width: 250px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.certTitle {
+  font-size: 1.1rem;
+}
+
+.downloadBtn {
+  background-color: rgba(226, 50, 44, 1);
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 34px;
+  border: none;
+  border-radius: 30px;
+}
+
+.downloadBtn:hover {
+  color: rgba(226, 50, 44, 1);
+  background-color: #fff;
+  box-shadow: rgba(256, 256, 256, 0.19) 0px 10px 20px, rgba(256, 256, 256, 0.23) 0px 6px 6px;
+}
+
+.container {
+  text-align: center;
+  padding: 40px 20px;
+  color: white;
+}
+
+.ProductContainer {
+  margin-top: 0px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tab {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  cursor: pointer;
+  padding-bottom: 0px !important;
+}
+
+/* Overlay */
+.tab::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transition: background 0.3s;
+}
+
+.tab:hover::before {
+  background: rgba(238, 5, 5, 0.3);
+}
+
+.ImageText {
+  padding-left: 20px;
+  text-align: start;
+  font-size: 20px;
+  z-index: 99;
+  border-left: 3px solid red;
+  transition: 0.5s;
+}
+
+.tab:hover .ImageText {
+  border-left: 3px solid white;
+}
+
+@media (max-width: 1024px) {
+  .productSection {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .certifications {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .productImage {
+    max-width: 100%;
+    height: 400px;
+  }
+
+  .productInfo {
+    text-align: center;
+  }
+
+  .tabs {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .tab {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .productImage {
+
+    height: 300px;
+    max-width: 900%;
+  }
+
+
+  .certBox {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .downloadBtn {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .productImage {
+
+    height: 200px;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .certifications {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .productTitle {
+    font-size: 1.5rem;
+  }
+
+  .certificationsHeading {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1.9rem;
+  }
+
+  .productDesc {
+    font-size: 1rem;
+  }
+
+  .specifications li {
+    font-size: 1rem;
+  }
+
+  .certifications {
+    gap: 10px;
+  }
+
+  .certBox {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
+
+  .downloadBtn {
+    font-size: 0.9rem;
+  }
+}

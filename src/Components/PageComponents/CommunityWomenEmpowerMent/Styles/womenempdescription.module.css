@@ -1,0 +1,28 @@
+.womenDescriptionsSection {
+    /* background-image: url(""); */
+    background: black;
+    height: 100%;
+    color: #fff;
+    padding: 90px 0px;
+}
+
+.womenDescription {
+    font-size: 22px;
+    padding: 0 50px !important;
+}
+
+@media (max-width:768px) {
+    .womenDescription {
+        padding: 10px !important;
+    }
+}
+@media (max-width:576px) {
+    .womenDescriptionsSection {
+        padding: 50px 0px;
+    }
+
+    .womenDescription {
+        font-size: 18px;
+        padding: 10px !important;
+    }
+}

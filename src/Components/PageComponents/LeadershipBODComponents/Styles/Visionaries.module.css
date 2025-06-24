@@ -1,0 +1,74 @@
+.visionariesSection {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://i.ibb.co/fVXwfXrq/image-1.png");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.visionariHeading {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center !important;
+}
+
+.p1 {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.p2 {
+    font-size: 24px;
+    font-weight: 400;
+    width: 70%;
+    margin: 30px auto;
+}
+
+@media (max-width:1200px) {
+    .p1 {
+        font-size: 44px;
+    }
+
+}
+
+@media (max-width:990px) {
+    .p1 {
+        font-size: 38px;
+    }
+
+    .p2 {
+        font-size: 18px;
+    }
+    .visionariesSection {
+        height: 500px !important;
+    }
+
+}
+
+@media (max-width:767px) {
+    .p2 {
+        font-size: 16px;
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .p1 {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .p1 {
+        font-size: 22px;
+    }
+
+    .visionariesSection {
+        height: 400px !important;
+    }
+}

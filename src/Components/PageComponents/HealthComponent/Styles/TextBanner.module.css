@@ -1,0 +1,26 @@
+.textBanner {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+}
+
+.BannerText {
+    max-width: 800px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Adjust padding and font size for larger screens */
+@media (min-width: 768px) {
+    .textBanner {
+        padding: 60px 70px;
+        /* margin-top: 20px; */
+    }
+    
+    .BannerText {
+        font-size: 1.2rem;
+    }
+}

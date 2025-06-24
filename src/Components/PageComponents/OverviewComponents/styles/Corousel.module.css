@@ -1,0 +1,41 @@
+
+.title{
+    font-size: 58px;
+    font-weight: 700;
+    font-family: 'Inter';
+    color: #fff;
+}
+.maincontainer{
+  background-color: #1e1e1e;
+}
+.previcon{
+position: absolute;
+left: 50px;
+}
+.swiperImage{
+ width: 100%;
+margin-bottom:40px;
+border-radius: 8px ;
+}
+
+
+@media (max-width:1200px) {
+  .swiperImage{
+    border-radius: 8px;  
+   }
+   .title{
+    font-size: 38px;   
+}
+  
+}
+@media (max-width:767px) {
+  .title{
+    font-size: 28px;   
+}  
+}
+@media (max-width:576px) {
+  .title{
+    font-size: 22px;   
+}
+}
+

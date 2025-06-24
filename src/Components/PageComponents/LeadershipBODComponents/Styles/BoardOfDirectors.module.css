@@ -1,0 +1,189 @@
+.BoardOfDirectorssection {
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 4rem;
+}
+
+.bodbutton {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 4px 16px;
+}
+.leaderButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodbutton:hover {
+    color: #E2322C;
+}
+
+.commitiesbutton {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 4px 16px;
+}
+
+.commitiesbutton:hover {
+    color: #E2322C;
+}
+
+.directorImagesBox {
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.directorImages {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.directorName {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.linkdenicons {
+    font-size: 26px;
+    background-color: black;
+    color: blue;
+}
+
+.directorpossition {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (min-width:767px) and (max-width:1200px) {
+    .directorName {
+        font-size: 16px;
+        font-weight: 900px;
+    }
+
+    .directorpossition {
+        font-size: 12px;
+    }
+
+    .linkdenicons {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:476px) {
+    .bodbutton {
+        font-size: 14px;
+    }
+
+    .commitiesbutton {
+
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .directorName {
+        font-size: 18px;
+    }
+
+}
+
+
+.activeButton {
+    color: #E2322C;
+    border: 1px solid #E2322C;
+}
+
+.visionariHeading {
+    text-align: center;
+}
+
+.p1 {
+    font-size: 58px;
+    font-weight: 600;
+}
+
+.p2 {
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+
+@media (max-width:1200px) {
+    .p1 {
+        font-size: 48px;
+    }
+
+}
+
+@media (max-width:990px) {
+    .p1 {
+        font-size: 38px;
+    }
+
+    .p2 {
+        font-size: 18px;
+    }
+    .directorImages {
+        width: 100%;
+        height: 200px;
+    }
+    .directorImagesBox1{
+        padding: 10px !important;        
+    }
+    .directorImagesBox{
+        height: 100%;
+    }
+
+}
+
+@media (max-width:767px) {
+    .p2 {
+        font-size: 16px;
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .p1 {
+        font-size: 28px;
+    }
+    .visionariHeading {
+        padding: 0;
+        margin: 0;
+    }
+    .directorImages {
+        width: 100%;
+        height:100%;
+    }
+
+}
+
+@media (max-width:576px) {
+    .p1 {
+        font-size: 22px;
+    }
+    .directorImages {
+        width: 100%;
+        height:100%;
+    }
+    .directorName{
+        font-size: 18px;
+    }
+    .directorpossition{
+        font-size: 14px;
+    }
+    .directorImagesBox1{
+        padding: 10px 0px !important;         
+    }
+}

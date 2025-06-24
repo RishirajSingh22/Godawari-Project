@@ -1,0 +1,71 @@
+/* Background Styling */
+.ecosystem {
+    background-image: url("https://i.ibb.co/m57rpt5T/image-2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    height: 600px; /* Responsive height */
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    position: relative;
+}
+
+
+.ecoHeading {
+    font-size: 3rem;
+    font-weight: 700;
+margin-top: 60px;
+padding: 20px;
+}
+
+/* Subheading */
+.ecoSubHeading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    width:100%;
+    padding: 0px 65px;
+  
+}
+
+/* Medium Screens (Tablets) */
+@media (max-width: 990px) {
+    .ecoHeading {
+        font-size: 2.5rem;
+    }
+    .ecoSubHeading {
+        font-size: 1.3rem;
+        width: 90%;
+    }
+}
+
+/* Small Screens (Phones) */
+@media (max-width: 768px) {
+  
+    .ecoHeading {
+        font-size: 2rem;
+    }
+    .ecoSubHeading {
+        font-size: 1.2rem;
+        width: 95%;
+    }
+    .ecosystem{
+        height: 500px;
+    }
+}
+
+/* Extra Small Screens */
+@media (max-width: 576px) {
+    .ecosystem {
+        height:400px;
+    }
+    .ecoHeading {
+        font-size: 1.8rem;
+    }
+    .ecoSubHeading {
+        font-size: 1rem;
+    }
+}

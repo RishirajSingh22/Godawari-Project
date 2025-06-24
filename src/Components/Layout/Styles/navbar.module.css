@@ -1,0 +1,337 @@
+*{
+  font-family: 'Inter', sans-serif !important;
+}
+.navSection {
+  background: #191a1c !important;
+  color: white !important;
+}
+
+.fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  background: black;
+  opacity: 1;
+}
+
+.godawariLogo {
+  height: 50px;
+}
+.navbar2 {
+    width: 100%;
+    align-self: center;
+    z-index: 9999;
+  }
+  
+  .navItems2 {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0px 10px;
+  }
+  
+  .navItem2 {
+    position: relative;
+    padding: 10px 15px;
+  }
+  
+  .navLink2 {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    font-family: 'Inter', sans-serif !important;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navLink2:hover {
+    color: lightgray;
+  }
+  
+  .dropdownMenu2 {
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    background: #191a1c;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    min-width: 200px;
+    box-shadow: 0 4px 6px rgba(247, 245, 245, 0.2);
+  }
+  
+  .navItem2:hover .dropdownMenu2 {
+    display: block;
+  }
+  
+  .dropdownItemContainer2 {
+    position: relative;
+  }
+  
+  .dropdownItem2 {
+    padding: 10px 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .dropdownItem2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+  }
+  
+  .dropdownItem2:hover {
+    color: red;
+  }
+  
+  .dropdownItem2:hover::after {
+    width: 85%;
+  }
+  
+  /* NESTED DROPDOWN */
+  .nestedDropdown2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: black;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    min-width: 180px;
+    box-shadow: 0 4px 6px rgba(247, 245, 245, 0.2);
+  }
+  
+  .dropdownItemContainer2:hover .nestedDropdown2 {
+    display: block;
+  }
+  
+  .nestedDropdownItem2 {
+    padding: 10px 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+  }
+
+  .nestedDropdownItem2:hover {
+    background: gray;
+    color: red;
+  }
+  .nestedDropdownSocial {
+    position: absolute;
+    top: 0;  
+    background: black;
+    right: 100%;;    
+    list-style: none;
+    min-width: 180px;
+    display: none;
+    z-index: 1000; 
+    box-shadow: 0 4px 6px rgba(247, 245, 245, 0.2);
+  }
+  
+  .dropdownItemContainer2 {
+    position: relative; 
+  }
+  
+  .dropdownItemContainer2:hover .nestedDropdownSocial {
+    display: block;
+  }
+  
+  
+  .dropdownItemContainer2:hover .nestedDropdownSocial {
+    display: block;
+  }
+  
+  
+.navbartoggler {
+  font-size: 28px;
+  background-color: #191a1c;
+  border: none !important;
+  color: #fff !important;
+}
+
+.navItems li {
+  margin: 0 !important;
+  display: none;
+  color: white;
+}
+
+.navItems li a {
+  padding-left: 20px;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.navItems li a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #e2322c, #b4672c);
+  transition: width 0.3s ease;
+}
+
+.navItems li a:hover {
+  transform: scale(1.1);
+  color: hsl(0, 0%, 100%);
+}
+
+.navItems li a:hover::before {
+  width: 100%;
+}
+
+.offcanvasNavItems1 {
+  display: none;
+}
+
+.offcanvasNavItems li a {
+  padding-left: 20px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.offcanvasNavItems li:hover {
+  background: #e2322c;
+  color: #fff;
+}
+
+.offcanvasNavItems {
+  background-color: #191a1c;
+}
+
+.navbarIcons {
+  display: block;
+  color: #fff;
+  font-size: 28px;
+  margin-top: 3px;
+}
+.searchIcons {
+  display: block;
+  color: #fff;
+  font-size: 28px;
+  margin-top: 8px;
+}
+
+.crosButton {
+  background-color: transparent !;
+  color: #fff;
+  font-size: 28px;
+}
+
+.hambergerIcons {
+  color: #fff;
+  font-size: 28px;
+  border: none !important;
+}
+
+.menuHamberger {
+  background-color: transparent;
+  /* color: #fff; */
+  border: none;
+  padding-top: 5px;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .navItems li a {
+    font-size: 14px;
+  }
+  .navItem2{
+    padding: 0px !important;
+  }
+  .navLink2 {
+    padding: 5px !important;
+  }
+  .navItems li a{
+    font-size: 12px;
+   
+  }
+}
+
+@media (max-width: 820px) {
+
+}
+
+@media (max-width: 767px) {
+  .navItems2 {
+    display: none;
+  }
+  .navItems li a {
+    color: #fff;
+    font-size: 20px;
+  }
+  .navItems li {
+    display: block;
+  }
+  .offcanvasNavItems1 {
+    display: block;
+    color: #fff;
+  }
+
+  /* .menuHamberger {
+        display: none;
+        ;
+    } */
+
+  .navItems li {
+    padding-left: 0px !important;
+  }
+
+  .navItems {
+    background-color: #191a1c;
+  }
+  .searchIcons {
+    display: none;
+  }
+
+  .navbarIcons {
+    display: none;
+    /* color: #000;
+        padding-left: 20px;
+        font-size: 44px; */
+  }
+
+  .navItems li:hover {
+    background: #e2322c;
+  }
+
+  .navItems li a:hover {
+    transform: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .navItems li a {
+    font-size: 20px;
+  }
+
+  .godawariLogo {
+    height: 40px;
+  }
+}

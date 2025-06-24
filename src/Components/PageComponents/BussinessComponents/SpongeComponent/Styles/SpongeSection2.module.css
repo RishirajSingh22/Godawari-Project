@@ -1,0 +1,208 @@
+.section2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://i.ibb.co/fVWRHmnv/1504fe5a0cbc396fc8c5c360c8569d7e.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  height: 100%;
+  color: #fff;
+  padding: 50px 0px;
+}
+
+.description {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px;
+}
+
+.contentImage {
+  height: 100%;
+  width: 100%;
+  min-height: 500px;
+}
+
+.contentSection {
+  background-image: url("https://i.ibb.co/JWYgqXCC/Rectangle-408.png");
+  height: 100%;
+  min-height: 500px;
+}
+
+.line {
+  height: 75%;
+  width: 2px;
+}
+
+.cardHeading {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+}
+
+.cutsomerImage {
+  width: 100%;
+  height: 200px;
+  /* Fixed height for cards */
+  background-color: rgba(67, 67, 67, 1);
+  overflow: hidden;
+  /* To ensure the image stays within the container */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  /* Ensure the image fills the container */
+  object-fit: cover;
+  /* Ensures the image covers the entire container without distortion */
+}
+
+.imageDescription {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 400;
+  z-index: 2;
+}
+
+.textBox {
+  background-color: #444444;
+  padding: 20px;
+  height: 50%;
+  text-align: start !important;
+  overflow: hidden;
+}
+
+.textBox h6 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.textBox p {
+  font-size: 18px;
+  text-align: start !important;
+
+}
+
+.tittle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.productioncontainer {
+  background-color: rgba(65, 65, 65, 1);
+
+  h3 {
+    font-size: 48px;
+    padding: 30px;
+    font-family: "Poppins";
+    margin: 0;
+  }
+}
+
+.productDescription {
+  background-color: #fff;
+  margin: 0;
+  padding: 30px 0px;
+}
+
+.productDescription h6 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+
+
+}
+
+.productDescription p {
+  font-size: 20px;
+  color: rgba(68, 68, 68, 1);
+}
+
+.verticalLine {
+  border-top: 1px solid rgba(201, 201, 201, 1);
+  width: 80%;
+  margin: auto;
+  padding: 10px 0px;
+}
+
+
+@media (max-width: 990px) {
+  .cardHeading {
+    font-size: 38px;
+
+  }
+
+  .productioncontainer h3 {
+    font-size: 38px;
+  }
+
+  .verticalLine {
+    width: 100%;
+  }
+
+  .productDescription {
+    padding: 30px 20px;
+  }
+
+  .productDescription h6 {
+    font-size: 20px;
+
+  }
+
+  .productDescription p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .description {
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    text-align: start;
+  }
+
+  .cardHeading {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .description {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .cardHeading {
+    font-size: 28px;
+  }
+
+  .productioncontainer h3 {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .productDescription {
+    padding: 30px 20px;
+  }
+
+  .productDescription h6 {
+    font-size: 18px;
+  }
+
+  .productDescription p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,129 @@
+.womenGlobalgoalsBanner {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)),
+        url("https://i.ibb.co/S7fb1xb5/Screenshot-2025-03-11-151107.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+    font-family: "inter";
+}
+
+.allGoal {
+    margin-top: 40px;
+    padding: 80px 30px;
+}
+
+.goalsHeading {
+    font-size: 58px;
+    font-weight: 600;
+    padding-top: 80px;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+.headingcontainer {
+    min-height: 130px;
+}
+
+.goalSubheadings {
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.goaldescripation {
+    padding: 10px;
+}
+
+
+@media (max-width :1200px) {
+    .allGoal {
+        padding: 60px 0px;
+    }
+
+    .logo {
+        width: 60px;
+        height: auto;
+    }
+
+    .goalsHeading {
+        font-size: 48px;
+    }
+
+    .goalSubheadings {
+        padding-top: 40px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .goaldescripation {
+        padding: 0px;
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+}
+
+@media (max-width :990px) {
+    .headingcontainer {
+        min-height: 100px;
+    }
+
+    .goalsHeading {
+        font-size: 34px;
+    }
+
+    .logo {
+        width: 70px;
+        height: auto;
+    }
+
+    .womenGlobalgoalsBanner {
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width :768px) {
+    .goalsHeading {
+        font-size: 34px;
+    }
+
+
+}
+
+@media (max-width :576px) {
+    .headingcontainer {
+        min-height: auto;
+    }
+
+    .allGoal {
+        padding: 20px 60px;
+    }
+
+    .goalsHeading {
+        font-size: 26px;
+        padding: 40px 10px 0px;
+    }
+}
+
+@media (max-width :400px) {
+
+    .allGoal {
+        padding: 20px 10px;
+    }
+
+    .goaldescripation {
+        padding: 0px;
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+}

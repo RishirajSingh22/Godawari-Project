@@ -1,0 +1,136 @@
+/* .YearsOfExperienceSection{
+    position: relative;
+    background-image: url("https://i.ibb.co/zWhsQT9z/MUR-5839-1.png");
+    background-size: 100% 100%;
+    height: auto;
+    font-family: "Inter", serif;
+}
+.YearsOfExperienceSection::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;  
+    opacity: 0.9;      
+} */
+
+
+.YearsOfExperienceSection {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url("https://i.ibb.co/zWhsQT9z/MUR-5839-1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    font-family: "Inter", serif;
+}
+
+.yoeAllContent {
+    position: relative;
+    z-index: 100;
+}
+
+.yearOfExpContent {
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+}
+.imgae25{
+ width: 300px;
+ height: auto;
+}
+.yearOfExpContent h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.yearOfExpContent p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.timelineyear {
+    color: #fff;
+    /* padding-right: 50px; */
+    font-size: 20px;
+}
+
+.timelineTitle {
+    color: #E2322C;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: ;
+}
+
+.timelineDescription {
+    color: #fff;
+    padding-bottom: 35px;
+    margin-bottom: 0px !important;
+
+    /* padding-left: 1rem; */
+    li {
+        margin-left: -17px;
+
+
+
+    }
+}
+
+.yearOfExpTimeline {
+    padding-bottom: 60px;
+    padding-left: 100px !important;
+
+}
+
+/* .tiimelinedots{
+    margin: 100px;
+} */
+
+@media (max-width:992px) {
+    .timelineyear {
+        font-size: 16px;
+    }
+
+    .yearOfExpTimeline {
+        padding: 0px !important;
+    }
+
+    .yearOfExpContent h3 {
+        font-size: 30px;
+    }
+
+}
+
+
+
+@media (max-width:576px) {
+    .timelineTitle {
+        font-size: 14px;
+    }
+
+    .timelineDescription {
+        font-size: 12px;
+    }
+
+    .timelineyear {
+        font-size: 14px;
+    }
+
+    .yearOfExpContent {
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+    .imgae25{
+        width: 200px;
+        height: auto;
+       }
+
+}

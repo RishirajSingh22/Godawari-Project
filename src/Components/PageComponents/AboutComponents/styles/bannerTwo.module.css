@@ -1,0 +1,69 @@
+.bannerTwOSection {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("https://i.ibb.co/QFFhrqNF/d17bf5e26595ccd7501fffbbda2da05b7fce2674.jpg");
+    background-size: 100% 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Inter", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.bannerTwoContent{
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    color: #fff;
+
+}
+.bannerTwoContent h3{
+    font-size:50px;
+    font-weight: 700;    
+    padding-bottom: 20px;
+}
+.bannerTwoContent span{
+    font-size: 30px;
+}
+.bannerTwoContent p{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+@media(max-width:990px){
+    .bannerTwOSection {
+        height: auto;
+    }
+    .bannerTwOSection::after {
+        height: 100%;
+    }
+    .bannerTwoContent{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .bannerTwoContent h3{
+        font-size: 25px;
+     
+    }
+    .bannerTwoContent span{
+        font-size: 20px;
+    }
+    .bannerTwoContent p{
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:576px) {
+    .bannerTwoContent h3{
+        font-size: 20px;
+
+    }
+    .bannerTwoContent p{
+        font-size: 14px;
+    }
+
+}

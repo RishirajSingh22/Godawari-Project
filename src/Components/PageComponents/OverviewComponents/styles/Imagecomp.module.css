@@ -1,0 +1,49 @@
+.maindiv {
+  background-image: url("https://i.ibb.co/5hytgR8t/17cdb297fd0a5ab1a44a8fc45db300bf3c15d691-1.png");
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.crouselHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 736px;
+  width: 100%;
+  color: #fff;
+  font-size: 46px;
+  font-weight: 700;
+  padding: 0px 40px;
+
+}
+
+@media (max-width: 1200px) {
+  .crouselHeading {
+    font-size: 44px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 992px) {
+  .crouselHeading {
+    font-size: 38px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 767px) {
+  .crouselHeading {
+    font-size: 28px;
+    padding: 20px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .crouselHeading {
+    font-size: 22px;
+    padding: 40px;
+    text-align: center;
+  }
+
+}

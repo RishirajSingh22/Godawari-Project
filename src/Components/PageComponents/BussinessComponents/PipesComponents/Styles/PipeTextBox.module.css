@@ -1,0 +1,17 @@
+.description{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+
+}
+@media (max-width:576px) {
+    .description{
+        font-size: 18px;
+        padding: 10px;   
+    }}
+
+    @media (max-width:576px) {
+        .description{
+            font-size: 18px;
+            padding: 10px;   
+        }}

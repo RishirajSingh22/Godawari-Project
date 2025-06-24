@@ -1,0 +1,72 @@
+.container {
+    padding: 80px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url("https://i.postimg.cc/zGQwQNjJ/image-1.png") center/cover no-repeat;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .statsWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .statBox {
+    background-color: rgba(8, 7, 7, 0.5); /* 50% opacity */
+    padding: 34px;
+    border-radius: 8px;
+    width: 400px;
+    border: 1px solid rgb(94, 91, 91);
+    text-align: center;
+  }
+  
+  
+  .iconWrapper img {
+    width: 90px;
+  }
+  
+  .statNumber {
+    margin-top: 40px;
+    font-size: 42px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .statLabel {
+    font-size: 19px;
+  }
+  
+  .ethosSection {
+    margin-top: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .highlight {
+    display: block;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .description {
+    margin-top: 30px;
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .statBox {
+      width: 100%;
+    }
+    
+    .highlight {
+      font-size: 20px;
+    }
+  }
+  

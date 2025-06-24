@@ -1,0 +1,39 @@
+.polesBanner {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url("https://i.postimg.cc/rp8hk4jY/45899c957e4a05c2764f58c01a5dbc74605cdce0.png");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 600px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .polesBannerHeading {
+    font-size: 46px;
+    font-weight: 400;
+    text-align: center;
+    z-index: 2;    
+  }
+  .polesBannerHeading span{
+    font-weight: 700;
+  }
+  @media (max-width: 990px) {
+    .polesBannerHeading {
+      font-size: 44px;
+    }
+  }
+  @media (max-width: 576px) {
+    .polesBannerHeading {
+      font-size: 28px;
+    }
+    .polesBanner {
+      height: 400px;
+    }
+  }
+  

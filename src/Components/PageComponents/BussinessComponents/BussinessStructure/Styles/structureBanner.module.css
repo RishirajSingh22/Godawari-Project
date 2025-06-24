@@ -1,0 +1,38 @@
+.structureBanner {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://i.postimg.cc/MH2GQMtc/5e1ee75e61079de19ac3c6acb5f6210f.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 600px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.structureBannerHeading {
+  font-size: 46px;
+  font-weight: 400;
+  text-align: center;
+  z-index: 2;    
+}
+.structureBannerHeading span{
+  font-weight: 700;
+}
+@media (max-width: 990px) {
+  .structureBannerHeading {
+    font-size: 45px;
+  }
+}
+@media (max-width: 576px) {
+  .structureBannerHeading {
+    font-size: 28px;
+  }
+  .structureBanner {
+    height: 400px;
+  }
+}

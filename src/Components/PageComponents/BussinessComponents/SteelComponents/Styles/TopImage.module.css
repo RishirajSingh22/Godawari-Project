@@ -1,0 +1,41 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.stellBanner {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://i.postimg.cc/661PWvCq/403727362cd0f22b59465d27d9e6bd63.png");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+.steelBannerHeading {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    z-index: 2;    
+  }
+  .steelBannerHeading span{
+    font-weight: 700;
+  }
+  @media (max-width: 990px) {
+    .steelBannerHeading {
+      font-size: 48px;
+    }
+  }
+  @media (max-width: 576px) {
+    .steelBannerHeading {
+      font-size: 28px;
+    }
+    .stellBanner {
+      height: 400px;
+    }
+  }
+  

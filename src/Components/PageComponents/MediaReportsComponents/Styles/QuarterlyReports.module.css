@@ -1,0 +1,20 @@
+.quarterlySection{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0, 0.6)),
+    url("https://i.ibb.co/CKz9bcbC/bbde365a4bc5a350330373b3fef26b3bf5b33494.png");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.querterlyContainer{
+    text-align: center;
+    padding: 130px;   
+}
+.annualBtn{
+    position: absolute;
+    bottom: 15%;
+    top: auto;
+    left: auto;
+    right: auto;
+
+}

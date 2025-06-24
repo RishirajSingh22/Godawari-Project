@@ -1,0 +1,150 @@
+  .maincontainer {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Inter';
+  }
+
+  .companytitle {
+    font-size: 58px;
+    font-weight: 600;
+  }
+
+  .companydescription {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Inter';
+    padding-top: 40px;
+  }
+
+  .sectiontitle {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Inter';
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .statscard {
+    background-color: #222 !important;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    height: 100%;
+  }
+
+  .statscard img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 20px;
+    height: 120px;
+  }
+
+  .statscard:hover {
+    background-color: #fff;
+  }
+
+  .statsnumber {
+    font-size: 78px;
+    font-weight: 700;
+    font-family: 'Inter';
+    color: #E53630;
+    margin-bottom: 0;
+    margin-top: 7rem;
+  }
+
+  .statstext {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: 'Inter';
+  }
+
+  @media (max-width: 1200px) {
+
+    .companytitle,
+    .sectiontitle {
+      font-size: 50px;
+    }
+
+    .companydescription {
+      width: 85%;
+      font-size: 18px;
+    }
+
+    .statsnumber {
+      font-size: 68px;
+    }
+
+    .statstext {
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: 992px) {
+
+    .companytitle,
+    .sectiontitle {
+      font-size: 38px;
+    }
+
+    .companydescription {
+      width: 90%;
+      font-size: 16px;
+    }
+
+    .statsnumber {
+      font-size: 58px;
+      margin-top: 6rem;
+    }
+
+    .statstext {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 767px) {
+
+    .companytitle,
+    .sectiontitle {
+      font-size: 28px;
+    }
+
+    .companydescription {
+      width: 95%;
+      font-size: 16px;
+    }
+
+    .statsnumber {
+      font-size: 58px;
+      margin-top: 6rem;
+    }
+
+    .statstext {
+      font-size: 18px;
+    }
+
+    .statscard img {
+      height: 110px;
+    }
+
+    .statscard img {
+      top: 3px;
+      left: 3px;
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 576px) {
+
+    .companytitle,
+    .sectiontitle {
+      font-size: 22px;
+    }
+
+    .companydescription {
+      width: 100%;
+      font-size: 14px;
+    }
+  }

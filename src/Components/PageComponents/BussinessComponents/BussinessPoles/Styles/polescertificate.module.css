@@ -1,0 +1,55 @@
+.PolesCertifications {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url("https://i.postimg.cc/BvhSyD1G/51aab4fd28d1bcfdbad24a333b0bb415b830fe44.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    padding: 70px 0px;
+   
+   
+  }
+  
+  .PolesCertificationsContent1{
+    background-color: rgba(48, 47, 47, 1);
+    border: 1px solid #fff;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .downloadBtn {
+    background-color: rgba(226, 50, 44, 1);
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 34px;
+    border: none;
+    border-radius: 30px;
+}
+
+.downloadBtn:hover {
+    color: rgba(226, 50, 44, 1);
+    background-color: #fff;
+    box-shadow: rgba(256, 256, 256, 0.19) 0px 10px 20px, rgba(256, 256, 256, 0.23) 0px 6px 6px;
+}
+.certificateheading{
+  font-size: 44px;
+  font-weight: 600;
+}
+.PolesCertificationsHead{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+  @media (max-width:576px) {
+    .PolesCertificationsHead{
+        font-size: 16px;
+    }
+    .PolesCertificationsContent1{
+        padding: auto 20px;
+    }
+    
+  }

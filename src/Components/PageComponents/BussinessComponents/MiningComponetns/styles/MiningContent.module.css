@@ -1,0 +1,136 @@
+.miningPage {
+    background-color: #000;
+    background-image: url("https://i.ibb.co/rK6wB5Tv/omid-roshan-0-Q5s7h-Xe9-Eg-unsplash-1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    color: #fff;
+  }
+  
+  /* .miningPage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.365);
+    z-index: 0;
+  } */
+  
+  /* .miningPage > div {
+    position: relative;
+    z-index: 1;
+  } */
+  .miningDescription{
+    font-size: 21px;
+  }
+  .sectionTitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  
+  /* Mine Cards */
+  .mineCard {
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .mineImage {
+    position: relative;
+  }
+  
+  .mineName {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.75rem 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    font-size: 1.25rem;
+  }
+  
+  .mineDetails {
+    padding: 1.5rem;
+  }
+  
+  .detailRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  .detailValue{
+    color: #000;
+    text-align: end;
+  }
+  
+  .detailRow:last-child {
+    border-bottom: none;
+  }
+  
+  .detailLabel {
+    font-weight: 600;
+    color: #000;
+  }
+  
+  /* Highlight Cards */
+  .highlightCard {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    height: 100%; 
+    color: #fff;
+    border-radius: 20px;
+  }
+  
+  .highlightIcon {
+    margin-bottom: 1rem;
+    
+  }
+  
+  .highlightValue {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(229, 54, 48, 1);
+    margin-bottom: 0.5rem;
+  }
+  
+  .perUnit {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  
+  .highlightText {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  .highlightCardIcon{
+    color: rgba(229, 54, 48, 1);
+    height: 120px;
+    width: 120px;
+  }
+  
+  @media (max-width: 768px) {
+    .sectionTitle {
+      font-size: 2rem;
+    }
+  
+    .highlightValue {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width:576px) {
+    .miningDescription{
+      font-size: 18px;
+
+    }
+    
+  }

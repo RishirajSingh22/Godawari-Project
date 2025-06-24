@@ -1,0 +1,25 @@
+.descriptionSection {
+    background-color: #000;
+    color: #fff;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.line {
+    height: 90%;
+    width: 2px;
+    padding-top: 10px;
+    padding-bottom: 20px
+}
+@media (max-width:576px) {
+    .heading {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .para{
+        font-size: 16px
+    }
+}

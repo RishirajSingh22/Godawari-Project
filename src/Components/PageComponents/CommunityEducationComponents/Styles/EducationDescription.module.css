@@ -1,0 +1,28 @@
+.descriptionSection{
+    /* background-color:#1E1E1E ; */
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    font-family: "inter";
+}
+.description{
+    color: #fff;
+    font-size: 22px;
+    padding: 80px;
+    font-family: "inter";
+    margin-bottom: 0px !important;
+}
+
+@media (max-width:990px) {
+    .description{
+        font-size: 20px;
+        padding: 80px 0px; 
+    }
+    
+}
+@media (max-width:576px) {
+    .description{
+        font-size: 16px;
+        padding: 60px 20px;
+        text-align: start !important;    
+    }    
+}

@@ -1,0 +1,28 @@
+.sportsDescriptionsSection {
+    /* background-image: url(""); */
+    background: black;
+    height: 100%;
+    color: #fff;
+    padding: 90px 0px;
+}
+
+.sportsDescription {
+    font-size: 22px;
+    padding: 0 50px !important;
+}
+
+@media (max-width:768px) {
+    .sportsDescription {
+        padding: 10px !important;
+    }
+}
+@media (max-width:576px) {
+    .sportsDescriptionsSection {
+        padding: 50px 0px;
+    }
+
+    .sportsDescription {
+        font-size: 18px;
+        padding: 10px !important;
+    }
+}

@@ -1,0 +1,68 @@
+.backgroung{
+    background-color:  #010101;
+    height: 100%;
+    padding: 0px 0px 70px 0px;
+}
+.backgroungImage{
+    /* background-image: url("https://i.postimg.cc/BvVNVMMt/Rectangle-411-4.png");   
+  
+    background-position: center;
+    background-size: 100% 100%; */
+    background-color: #010101;
+    height: 100%;
+    color: #fff;
+
+}
+.contactus{
+    font-size: 18px;
+    font-weight: 500;
+}
+.contactus svg{
+    color: rgba(229, 54, 48, 1);
+    font-size: 40px;
+   }
+.feedback{
+    font-size: 40px;
+    font-weight: 700
+}
+.error{
+    font-size: 18px;
+    font-weight: 500;
+}
+.email{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    span{
+        color: rgba(229, 54, 48, 1);
+        padding-left: 10px;
+    }
+}
+input{
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 1px solid rgba(109, 108, 108, 1) !important;
+    height: 50px !important;
+    padding: 5px !important;
+}
+input::placeholder{
+    color: rgba(109, 108, 108, 1) !important;
+}
+textarea{
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+width: 100% !important;
+    padding: 5px !important;
+}
+textarea::placeholder{
+    color: rgba(109, 108, 108, 1) !important;
+}
+.sendBtn{
+    background-color: rgba(229, 54, 48, 1) !important;
+    color: #fff;
+    border-radius: 30px !important;
+    border: none;
+    width: 150px;
+    height: 50px;
+}

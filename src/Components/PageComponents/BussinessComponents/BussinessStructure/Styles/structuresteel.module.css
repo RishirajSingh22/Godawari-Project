@@ -1,0 +1,139 @@
+.structurePolesSection2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://i.ibb.co/QFkr3cdL/61b374d0cb448f6562a7c5f7b348cb2d5a76f104.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.structureDescription {
+    font-size: 22px;
+}
+.steeldesc{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.structurePolesHeaderSection {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.structurePolesDescription {
+    font-size: 18px;
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.structureSteelHeading {
+    font-size: 44px;
+    font-weight: 600;
+    padding-bottom: 10px;
+
+}
+
+.productImages {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.productImage {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.productImages:hover .productImage {
+    transform: scale(1.1);
+}
+
+.productImagesOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+    transition: opacity 0.3s;
+}
+
+.productImages:hover .productImagesOverlay {
+    opacity: 0.9;
+}
+
+
+.selected .productImagesOverlay {
+    background: rgba(226, 50, 44, 0.7);
+}
+
+.selected .productImagesTitle {
+    border-left: 3px solid rgb(255, 255, 255);
+}
+
+.productImagesTitle {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-left: 3px solid rgba(229, 54, 48, 1);
+    padding-left: 8px;
+    z-index: 2;
+}
+
+.manufacurImages {
+    width: 100%;
+    height: 100%;
+
+}
+
+.structureListLeftImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.structureStructureSection2energyContentList {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.structureListItemMainHeading {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.structureProductDescription {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.structureListSubHeading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.structureListItems {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+@media (max-width:576px) {
+    .structureDescription {
+        font-size: 18px;
+    }
+}

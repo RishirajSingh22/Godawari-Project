@@ -1,0 +1,58 @@
+.sustainabiltyBanner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+        url("https://i.ibb.co/Q7S6dVvc/c6bd7fae503e43ad7b778fdbfc74b8534e3882bc.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 600px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subHeading {
+    font-size: 30px;
+    font-weight: 500
+}
+
+@media (max-width:990px) {
+    .heading {
+        font-size: 38px;
+    }
+
+}
+
+@media (max-width:786px) {
+    .heading {
+        font-size: 34px;
+    }
+
+    .subHeading {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:576px) {
+    .heading {
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+
+    .subHeading {
+        font-size: 14px;
+        padding: 0px 15px;
+    }
+
+    .billetsBanner {
+        height: 400px;
+    }
+}

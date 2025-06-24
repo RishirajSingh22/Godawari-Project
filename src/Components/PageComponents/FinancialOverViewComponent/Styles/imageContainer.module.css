@@ -1,0 +1,58 @@
+* {
+    font-family: Poppins !important;
+}
+
+.ecosystem {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+        url("https://i.ibb.co/LdbRM6VH/finance-Image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.visionariHeading {
+
+    text-align: center;
+    width: 100%;
+}
+
+.p1 {
+    color: white;
+    font-size: 46px;
+    font-weight: 500;
+}
+
+@media (max-width:990px) {
+    .p1 {
+        font-size: 44px;
+        ;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 998px) {
+    .visionariHeading {
+        top: 260px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .ecosystem {
+        height: 400px;
+        background-size: 100% 100%;
+    }
+
+    .p1 {
+        padding: 0px !important;
+        font-size: 30px;
+    }
+
+}

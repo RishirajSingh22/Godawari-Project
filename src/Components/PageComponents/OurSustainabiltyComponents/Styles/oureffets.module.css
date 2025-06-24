@@ -1,0 +1,52 @@
+.oureffetSection {
+    padding: 20px 0px;
+    padding-top: 80px;
+}
+
+.mainHeading {
+    font-size: 58px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.cardSubHeading{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.cardPara{
+    font-size: 18px;
+    font-weight: 300;
+}
+.contentImages {
+    min-height: 300px;
+    width: 100%;
+    height: 100%;   
+}
+.contentSection{
+height: 100% ;
+}
+
+.cardHeading {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@media (max-width:990px) {
+    .mainHeading {
+        font-size: 48px;
+    }
+    
+}
+@media (max-width:767px) {
+    .mainHeading {
+        font-size: 38px;
+    }
+    
+}
+@media (max-width:576px) {
+    .mainHeading {
+        font-size: 28px;
+    }
+    
+}

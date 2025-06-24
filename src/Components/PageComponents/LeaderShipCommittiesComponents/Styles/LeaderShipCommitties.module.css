@@ -1,0 +1,61 @@
+.auditCommittee {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.audit1Detailscontainer{
+    padding-top: 2rem;
+  
+}
+.auditCommitteeheading {
+    font-size: 42px;
+    font-weight: 500;
+    padding: 0px 0px 15px;
+}
+
+ .imagebox {
+    display: flex;
+    justify-content: center;
+}
+
+.auditImages { 
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+
+}
+
+.directorName {
+    font-size: 18px;
+    font-weight: 400; 
+}
+@media (min-width:767px) and (max-width:992px) {
+    .directorName {
+        font-size: 16px;
+        font-weight: 400; 
+   
+    }
+    .auditImages { 
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        padding: 0px 10px;
+    }
+    
+    
+}
+
+@media (max-width:576px) {
+      .auditCommitteeheading {
+        font-size: 24px;
+      }
+}
+@media (max-width:370px) {
+    .auditCommitteeheading {
+        font-size: 22px;
+        padding: 0 8px;
+    }    
+}
+
+

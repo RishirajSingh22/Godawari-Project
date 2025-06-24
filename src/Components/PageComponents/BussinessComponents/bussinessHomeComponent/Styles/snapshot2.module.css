@@ -1,0 +1,63 @@
+.snapshotContainer {
+  padding: 20px;
+  text-align: center;
+}
+
+.snapshotTitle {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+
+.snapshotCard:hover {
+  transform: scale(1.05);
+}
+
+.snapshotBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 1px solid #c8102e;
+  border-bottom: 1px solid #c8102e;
+}
+
+.snapshotIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.snapshotValue {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.snapshotLabel {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: start;
+  padding-right: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .snapshotIcon {
+      width: 40px;
+      height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .snapshotTitle {
+      font-size: 20px;
+  }
+
+  .snapshotValue {
+      font-size: 16px;
+  }
+
+  .snapshotLabel {
+      font-size: 14px;
+  }
+}

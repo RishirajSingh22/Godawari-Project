@@ -1,0 +1,71 @@
+.section2{
+    background-image:    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://i.ibb.co/nN9NhRz8/0772075a862e04dfdfc18b7718a7cf068c169374.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100%;
+    color: #fff;
+    padding: 50px 0px;
+}
+.description{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+.firstRow{
+    height: 100% !important;
+    width: 100% !important    ;
+}
+.contentImages{
+    min-height:300px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.contentSection{
+background-image: url("https://i.ibb.co/JWYgqXCC/Rectangle-408.png");
+object-fit: cover;
+/* min-height:300px;
+height: 100%; */
+}
+
+.cardHeading{
+    font-size: 24px;
+    font-weight: 600;
+}
+.listItem{  
+    margin-left: -18px !important;
+    padding-top: 20px;
+}
+/* .cardImage{
+    width: 100%;
+    height: 100%;
+} */
+
+
+
+@media (max-width:768px) {
+    .description{
+        font-size: 22px;
+        width: 100%;     
+        padding: 20px;
+        text-align: start;
+    }
+    /* .cardHeading{
+        font-size: 32px;
+    } */
+    
+}
+@media (max-width:576px) {
+    .description{
+        font-size: 18px;
+        padding: 10px;   
+    }
+    /* .cardHeading{
+        font-size: 28px;
+    } */
+  
+    
+}

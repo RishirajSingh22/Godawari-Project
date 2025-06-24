@@ -1,0 +1,277 @@
+* {
+    font-family: Poppins;
+  }
+  .section {
+    position: relative;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),  url("https://i.ibb.co/N2bMTSNp/66b9ea8fa40cc4a2e7e1fdbc4ab3c56fd41a73da.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+    /* padding: 50px; */
+    z-index: 1; 
+  }
+  
+ 
+  .textParent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .text {
+    font-size: 26px;
+    text-align: center;
+  }
+  .snapshot {
+    font-family: Poppins;
+    font-weight: 700;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+  }
+  .revenueBox {
+      margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .revenueBox ul {
+    width: 200px;
+    border: 1px solid red;
+    border-left: none;
+    border-right: none;
+    padding: 6px 0px 10px 0px;
+  }
+  .revenueBox ul li {
+    list-style: none;
+  }
+  .revenueBox ul li {
+    text-align: center;
+  }
+  .liPrice {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .date {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .revenueBox ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .revenueBox ul li img {
+    height: 12px;
+  }
+  
+  .nseLi {
+    margin-top: 10px;
+  }
+  .media {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .media p:first-child {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 45px;
+  }
+  .media p:nth-child(2) {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+  }
+  .investor{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+  }
+  .investor button{
+    font-family: Inter;
+      margin-top: 30px;
+      background-color: transparent;
+      color: white;
+      border-radius: 30px;
+      padding: 5px 20px 5px 20px;
+      border: 1px solid white;
+  }
+  button:hover{
+    color: rgba(226, 50, 44, 1); 
+    border-color: rgba(226, 50, 44, 1);
+  }
+  .investor button:nth-child(1){
+    border-color: rgba(226, 50, 44, 1);
+    color:  rgba(226, 50, 44, 1);
+  }
+  .bottomText{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .bottomText p:first-child{
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .bottomText p:nth-child(2){
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .arrow{
+    
+    width: 10px;
+    height: 10px;
+  }
+  .arrow img{
+    width: 20px;
+    height: 20px;
+  }
+  .bottomText button{
+    font-size: 25px;
+    padding: 4px 13px 4px 13px;
+        color: black;
+        border-radius: 25px;
+        border:none;
+    }
+  @media (min-width: 767px) and (max-width: 998px) {
+    .liPrice {
+      font-size: 20px;
+    }
+    .date {
+      font-size: 15px;
+    }
+    .snapshotheading {
+      font-size: 28px;
+    }
+  }
+  @media (min-width: 580px) and (max-width: 767px) {
+    .liPrice {
+      font-size: 15px;
+    }
+    .date {
+      font-size: 13px;
+    }
+    .revenueBox ul{
+      width: 100px;
+    }
+    .textParent{
+      display: block !important;
+      text-align: start !important;
+    }
+    .snapshot {
+      font-size: 28px;
+    }
+  }
+  @media (min-width: 350px) and (max-width: 580px) {
+    .snapshotheading{
+      font-size: 26px !important; 
+      
+    }
+    
+    .revenueBox{
+      flex-direction: column;
+      align-items: center;
+    }
+    .revenueBox ul:nth-child(-n+4){
+      border-bottom: none;;
+    }
+    .liPrice {
+      font-size: 22px;
+    }
+    .date {
+      font-size: 18px;
+    }
+    .text {
+      font-size: 16px;
+      text-align: start !important;
+    }
+    .snapshot {
+      font-size: 26px;
+      margin: 0px !important;
+      margin-bottom: 0px !important;
+    }
+    .investor{
+      gap:10px;
+      justify-content: space-between;;
+    }
+    .investor button{   
+      border-radius: 20px;
+      font-size: 12px;
+        padding: 3px 7px 3px 7px;
+       
+    }
+    .bottomText p:first-child{
+      font-size: 40px;
+      text-align: center;
+      font-weight: 700;
+    }
+    .bottomText p:nth-child(2){
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  @media (max-width: 350px) {
+    .snapshotheading{
+      font-size: 20px !important; 
+      
+    }
+    
+    .revenueBox{
+      flex-direction: column;
+      align-items: center;
+    }
+ 
+    .text {
+      font-size: 16px;
+    }
+    .revenueBox ul:nth-child(-n+4){
+      border-bottom: none;;
+    } 
+       .media p:first-child{
+      font-size: 35px;
+    }
+    .section {    
+      border: 1px solid green !important;
+    }
+    .snapshot {
+      font-size: 27px;
+    }
+    .investor{
+      gap: 10px;
+    }
+    .investor button{
+   width:100px;
+      border-radius: 20px;
+      font-size: 10px;
+        padding: 3px 7px 3px 7px;
+       
+    }
+    .bottomText p:first-child{
+      font-size: 40px;
+      text-align: center;
+    }
+    .bottomText p:nth-child(2){
+      font-size: 20px;
+     
+    }
+    .liPrice {
+      font-size: 20px;
+    }
+    .date {
+      font-size: 16px;
+    }
+  }
+
+  .snapshotheading{
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 100px;
+  }
+  

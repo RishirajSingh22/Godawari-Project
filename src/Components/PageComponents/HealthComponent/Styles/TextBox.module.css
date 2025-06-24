@@ -1,0 +1,32 @@
+.textboxSection {
+    width: 100%;
+    /* max-width: 800px; */
+    padding: 0px 28px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Ullist {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.Ullist li {
+    margin-top: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Adjust padding and font size for larger screens */
+@media (min-width: 768px) {
+    .textboxSection {
+        width: 50%;
+        padding: 57px;
+    }
+
+    .Ullist li {
+        font-size: 1.1rem;
+    }
+}

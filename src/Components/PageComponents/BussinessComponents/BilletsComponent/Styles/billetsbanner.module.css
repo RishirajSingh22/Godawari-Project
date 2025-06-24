@@ -1,0 +1,34 @@
+.billetsBanner {
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("https://i.ibb.co/F4j2kdXc/da95d0abaffde49bb670bca89e2ec2a097d14b85.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 600px;
+    width: 100%;
+    font-family: "poppins";
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+
+.heading {
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+}
+@media (max-width:990px) {
+    .heading {
+        font-size: 44px;
+
+    }
+  }
+  
+  @media (max-width:576px) {
+    .heading {
+        font-size: 28px;       
+    }
+    .billetsBanner{
+        height: 400px;
+    }
+  }

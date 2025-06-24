@@ -1,0 +1,60 @@
+.container {
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0, 0.3)),
+  url("https://i.ibb.co/S7fb1xb5/Screenshot-2025-03-11-151107.png");
+  /* background-image: url("https://i.ibb.co/S7fb1xb5/Screenshot-2025-03-11-151107.png"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 50px 0px;
+  /* padding: 50px 20px; */
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.description {
+  font-size: 1rem;
+  max-width: 300px;
+}
+
+/* Responsive Grid */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

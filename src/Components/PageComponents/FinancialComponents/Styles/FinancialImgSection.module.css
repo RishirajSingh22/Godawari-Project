@@ -1,0 +1,56 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.ecosystem {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("https://i.ibb.co/XxwsF927/563329507ae5ed25ec77fc7598ea164af27f3cb8-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    color: #000;
+}
+
+.visionariHeading {
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    width: 100%;
+}
+
+.p1 {
+    color: white;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+
+
+@media (min-width: 576px) and (max-width: 998px) {
+    .visionariHeading {
+        top: 260px;
+    }
+
+    .p1 {
+        color: white;
+        font-size: 38px;
+    }
+}
+
+@media (max-width:576px) {
+    .p1 {
+        padding: 0px !important;
+        font-size: 24px;
+    }
+
+    .visionariHeading {
+        top: 200px;
+
+    }
+
+    .ecosystem {
+        height: 400px;
+        background-size: 100% 100%;
+    }
+}

@@ -1,0 +1,52 @@
+.subSidiaries{
+    background-color: #000;
+    color: #fff;
+}
+.subSidiariesHeading{
+    font-size: 58px;
+    font-weight: 600;
+    text-align: center;
+}
+.cards{
+    border: 1px solid #fff;
+    border-radius: 10px;    
+    height: 100%;
+    
+}
+.companyName{
+    font-size: 18px;
+    padding: 0px 10px;
+}
+.companytittle{
+    font-size: 16px;
+    color: rgba(255, 255, 255,0.60);
+}
+.knowmoreBtn {
+    background-color: rgba(217, 217, 217, 1);
+    color: #000;
+    border: 1px solid black;
+    border-radius: 70px;
+    padding: 8px 15px;
+    font-size: 18px;
+}
+
+.knowmoreBtn svg {
+    font-size: 20px;
+    margin-left: 20px
+}
+@media (max-width:990px) {
+    .subSidiariesHeading{
+        font-size: 38px;
+        margin: 0px 0px !important;
+    }
+    
+}
+@media (max-width:576px) {
+    .companyName{
+        font-size: 18px;
+    }
+    .companytittle{
+        font-size: 14px;
+    }
+   
+}

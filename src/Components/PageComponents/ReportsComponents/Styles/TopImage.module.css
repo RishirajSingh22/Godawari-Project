@@ -1,0 +1,116 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.ecosystem {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://i.ibb.co/sv1VmTJ7/bgOffice.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  color: #000;
+}
+
+.visionariHeading {
+  position: absolute;
+  top: 300px;
+  text-align: center;
+  width: 100%;
+}
+
+.p1 {
+  font-family: Poppins;
+  color: white;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.topImageButton {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+.topImageButton button {
+  font-size: 24px;
+
+  padding: 5px 20px;
+  /* padding: 3px 19px 3px 19px; */
+  color: black;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 80px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+button:hover {
+  color: rgba(226, 50, 44, 1);
+  border-color: rgba(226, 50, 44, 1);
+}
+
+.arrow {
+  padding: 0px 20px;
+}
+
+.arrow img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 990px) {
+  .p1 {
+    font-size: 65px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 998px) {
+  .visionariHeading {
+    top: 250px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 580px) {
+  .ecosystem {
+    height: 400px;
+    background-size: 100% 100%;
+
+  }
+
+  .p1 {
+    padding: 0px !important;
+    font-size: 30px;
+  }
+
+  .topImageButton button {
+    font-size: 18px;
+  }
+
+  .visionariHeading {
+    top: 200px;
+  }
+}
+
+@media (max-width: 350px) {
+  .ecosystem {
+    height:400px;
+    background-size: 100% 100%;
+  }
+
+  .p1 {
+    padding: 0px !important;
+    font-size: 30px;
+  }
+
+  .topImageButton button {
+    font-size: 14px;
+    padding: 3px 10px 3px 10px;
+  }
+
+  .visionariHeading {
+    top: 200px;
+  }
+}

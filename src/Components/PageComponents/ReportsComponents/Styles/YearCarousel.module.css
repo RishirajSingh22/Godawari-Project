@@ -1,0 +1,108 @@
+
+.parentCarousel{
+  padding: 40px 0px;
+  margin-top: 40px;
+}
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none;
+}
+
+/* For IE & Edge */
+* {
+  -ms-overflow-style: none;
+}
+
+
+
+/* Carousel Container */
+.carouselContainer {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 10px 0px; */
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Navigation Buttons */
+.navButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Year Buttons Container */
+.yearButtons {
+  display: flex;
+  gap: 15px;
+  overflow: hidden;
+  /* width: 90%;  */
+  justify-content: space-between;
+
+}
+
+/* Individual Year Buttons */
+.yearButton {
+  border: 1px solid white;
+  padding: 8px 35px;
+  border-radius: 20px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+/* Hover Effect */
+.yearButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Active Button */
+.active {
+  border-color: red !important;
+  color: red !important;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .yearButtons {
+      gap: 10px;
+  }
+  .yearButton {
+      padding: 6px 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .yearButtons {
+      gap: 8px;
+  }
+  .yearButton {
+      padding: 5px 20px;
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .yearButtons {
+      flex-wrap: nowrap;
+      overflow-x: auto; 
+     
+  }
+  .yearButton {
+    padding: 10px ;
+      font-size: 12px;
+      white-space: nowrap; 
+  }
+
+}
+
